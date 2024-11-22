@@ -7,8 +7,97 @@
     <link rel="stylesheet" href="/styles/message.css">
 </head>
 <body>
-    <h1>Message</h1>
-    <p id="demo"></p>
+    <nav class="navbar">
+        <div class="nav-left">
+          <div class="logo">
+            <img src="/assests/logo icon.svg" alt="BiteShareLogo" width="70" />
+          </div>
+          <input type="search" placeholder="Search..." class="search-input" />
+        </div>
+        <div class="nav-right">
+          <a href="#" class="nav-icon home-icon "
+            ><img src="/assests/home icon.svg" alt="home" width="50"
+          /></a>
+          <a href="#" class="nav-icon compass-icon"
+            ><img src="/assests/discover icon.svg" alt="discover" width="50"
+          /></a>
+          <a href="#" class="nav-icon messages-icon active"
+            ><img src="/assests/message icon.svg" alt="message" width="50"
+          /></a>
+          <a href="#" class="nav-icon notifications-icon"
+            ><img src="/assests/notification icon.svg" alt="notification" width="50"
+          /></a>
+          <a href="#" class="nav-icon profile-icon"
+            ><img src="/assests/profile icon.svg" alt="profile" width="50"
+          /></a>
+        </div>
+      </nav>
+
+      <div class="row">
+        <div class="left-sidebar">
+            <div class="left-container">
+                <div class="left-top-row">
+                    <div class="left-top-container">
+                        <!-- User's Profile display -->
+                         <h2>John Doe</h2>
+                         <img src="/assests/Down arrow.svg" alt="downArrow" width="20px">
+                    </div>
+                    <div class="create-new-msg">
+                        <!-- Create new message icon -->
+                         <img src="/assests/New Message.svg" alt="New Message" width="30px">
+                    </div>
+                </div>
+                <div class="search-container">
+                    <!-- Search contacts input -->
+                     <input type="text" id="seachInbox" placeholder="Search">
+                </div>
+                <div class="contacts-container">
+                    <!-- Inbox -->
+                     <!-- <h2>No contacts</h2> -->
+                </div>
+            </div>
+        </div>
+        <div class="main-container">
+            <div class="right-container">
+                <div class="right-top-row">
+                    <div class="receiver-container">
+                        <!-- Receiver's profile display -->
+                         <img src="/assests/female profile.svg" alt="Picture" width="70px">
+                         <h2>Jane Doe</h2>
+                    </div>
+                    <div class="audio-video-container">
+                        <!-- Audio call and Video Call -->
+                         <img src="/assests/call icon.svg" alt="call">
+                         <img src="/assests/video call icon.svg" alt="videoCall">
+                         <img src="/assests/information icon.svg" alt="information">
+                    </div>
+                </div>
+                <div class="messages-container">
+                    <!-- The messages will display here -->
+
+                </div>
+                <div class="right-bottom-container">
+                  <div class="right-bottom-row">
+                    <div class="leftPart-recording">
+                      <!-- recording icon -->
+                       <img src="/assests/mic icon.svg" alt="Mic">
+                       <img src="/assests/image icon.svg" alt="img">
+                  </div>
+                  <div class="write-message-container">
+                      <!-- input write messages -->
+                       <input type="text" id="message" placeholder="Message">
+                  </div>
+                  <div class="rightPart-emoji-sendIcon">
+                      <!-- Display emoji and send button -->
+                       <img src="/assests/emoji icon.svg" alt="emoji">
+                       <img src="/assests/sent icon.svg" alt="send">
+                  </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+      </div>
+
     <script src="/scripts/message.js"></script>
 </body>
 </html>

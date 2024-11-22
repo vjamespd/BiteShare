@@ -1,3 +1,228 @@
-#demo {
-    border: 1px solid;
+.sample {
+  color: #386641;
+  color: #6a994e;
+  color: #a7c957;
+  color: #f2e8cf;
+  color: #bc4749;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+}
+/* Navigation bar */
+.navbar {
+  background-color: #8ab660;
+  padding: 0.8rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  height: 60px;
+}
+
+.nav-left {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.logo {
+  position: fixed;
+  top: 13px;
+  left: 5px;
+  z-index: 1000;
+}
+
+.search-input {
+  padding: 0.5rem 1rem;
+  border: none;
+  margin-left: 2rem;
+  border-radius: 4px;
+  background-color: #f0f0f0;
+  width: 250px;
+  outline: none;
+}
+.search-input:focus{
+  border: none;
+}
+
+.nav-right {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.nav-icon {
+  text-decoration: none;
+  font-size: 1.5rem;
+  padding: 0.5rem;
+  border-radius: 50%;
+  transition: color 0.3s ease;
+}
+
+.nav-icon:hover img {
+  filter: invert(20%) sepia(30%) saturate(270%) hue-rotate(94deg)
+    brightness(60%) contrast(93%);
+}
+
+.nav-icon img {
+  transition: filter 0.3s ease;
+}
+
+.nav-icon.active img {
+  filter: invert(20%) sepia(30%) saturate(270%) hue-rotate(94deg)
+    brightness(60%) contrast(93%);
+}
+/* message content */
+.row{
+    display: flex;
+    height: 100%;
+}
+/* Left Part Container */
+.left-sidebar{
+    height: 100%;
+    width: 30%;
+}
+.left-container {
+    margin: 15px 0px 15px 15px;
+    border: 1px solid #386641;
+    border-radius: 15px;
+    width: calc(100%-30px);
+    height: calc(100vh - 120px);
+    box-sizing: border-box;
+    background-color: #f2e8cf;
+}
+.left-top-row {
+    /* border: 1px solid #386641; */
+    margin: 5px;
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+.left-top-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left-top-container h2,
+.left-top-container img{
+  padding: 0px 10px;
+  color: #386641;
+}
+.create-new-msg {
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    padding: 5px;
+    color: #386641;
+}
+.seach-container{
+  width: 100%;
+}
+#searchInbox{
+  border: none;
+}
+input[type=text]::placeholder {
+  padding: 10px;
+  margin-left: 15px;
+}
+input[type=text]{
+  background-color: #f0f0f0;
+  width: 90%; 
+  border-radius: 18px; 
+  height: 35px; 
+  margin-left: 15px;
+  outline: none;
+}
+.contacts-container{
+  /* border: 1px solid; */
+  height: 79%;
+  text-align: center;
+}
+
+
+/* Right Part Container */
+.main-container{
+    height: 100%;
+    width: 70%;
+}
+.right-container {
+    margin: 15px;
+    border: 1px solid #386641;
+    border-radius: 15px;
+    width: calc(100% - 30px);
+    height: calc(100vh - 120px);
+    background-color: #f2e8cf;
+}
+.right-top-row{
+  /* border: 1px solid; */
+  height: 15%;
+  display: flex;
+  justify-content: space-between;
+}
+.receiver-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.receiver-container h2,
+.receiver-container img {
+  padding: 0px 10px;
+  color: #386641;
+}
+
+.audio-video-container {
+  display: flex;
+  width: 20%;
+  justify-content: space-evenly;
+}
+.audio-video-container img {
+  width: 50px;
+  color: #386641;
+}
+
+.messages-container {
+  /* border: 1px solid; */
+  height: 73%;
+}
+.right-bottom-container {
+  /* border: 1px solid; */
+  height: 11%;
+}
+.right-bottom-row {
+  border: 1px solid;
+  height: 70%;
+  border-radius: 25px;
+  margin: 0px 25px 25px 25px;
+  background-color: #f0f0f0;
+  display: flex;
+}
+.leftPart-recording {
+  display: flex;
+}
+.leftPart-recording img {
+  width: 50px;
+}
+.write-message-container {
+  width: 90%;
+  margin: 3px 0px;
+}
+#message {
+  border: none;
+  margin: 0;
+  width: 100%;
+  outline: none;
+}
+#message:focus{
+  border: none;
+}
+.rightPart-emoji-sendIcon{
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0px 15px 0px 15px;
 }
