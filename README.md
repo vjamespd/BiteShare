@@ -46,6 +46,6 @@ Feedback: Comment, like, and save recipes.
 ### Conclusion
 BiteShare aims to foster a vibrant community of food enthusiasts, providing inspiration, connection, and education through shared recipes. It addresses users' needs for creativity, social interaction, and culinary learning, creating a meaningful impact in the world of cooking
 
-# NOTE
+## NOTE
 This project's functionality is basic and might not cover all security and validation aspects required for a production-level application. It's recommended to enhance security measures and error handling for a real-world deployment.
 
