@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BiteShare Signup</title>
+    <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-auth-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore-compat.js"></script>
+    <link rel="stylesheet" href="/css/signup.css" />
+  </head>
+  <body>
+    <div class="page-logo">
+      <img
+        src="/logo/logogreen.png"
+        alt="BiteShare Logo"
+        width="100"
+        height="100"
+      />
+    </div>
+
+    <div class="container">
+      <div class="form-box">
+        <div class="logo">
+          <img src="/logo/bitesharetext.png" alt="BiteShare" width="200" />
+        </div>
+        <p class="subtitle">
+          Sign up to see Inspiration and Discovery of foods from your friends.
+        </p>
+
+        <form id="signup-form">
+          <input
+            type="email"
+            id="email"
+            placeholder="Email or Phone number"
+            required
+          />
+          <input
+            type="password"
+            id="password"
+            placeholder="Password"
+            required
+          />
+          <input type="text" id="fullName" placeholder="Full Name" required />
+          <input type="text" id="username" placeholder="Username" required />
+
+          <p class="terms">
+            By signing up, you agree to our
+            <a href="#" id="terms-link">Terms</a>,
+            <a href="#" id="privacy-link">Privacy Policy</a>, and
+            <a href="#" id="cookies-link">Cookies Policy</a>.
+          </p>
+
+          <button type="submit">Sign Up</button>
+        </form>
+
+        <div class="login-link">
+          <p>
+            Have an account? <a href="/html/login.html"><strong>Log in</strong></a>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="bottom-line"></div>
+    <div id="toast"></div>
+
+    <script src="signup.js"></script>
+  </body>
+</html>
