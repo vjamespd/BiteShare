@@ -1,4 +1,4 @@
-BiteShare: Food-Focused Social Media Platform
+# BiteShare: Food-Focused Social Media Platform
 Project Title: BiteShare By: Vinard James Damasco | Rephael Aplacador | Mark Anjo Luyun
 
 Introduction
