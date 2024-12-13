@@ -1,80 +1,47 @@
-BiteShare: Food-Focused Social Media Platform
-Project Title: BiteShare By: Vinard James Damasco | Rephael Aplacador | Mark Anjo Luyun
+# BiteShare: Food-Focused Social Media Platform
+## Project Title: BiteShare By: Vinard James Damasco | Rephael Aplacador
 
-Introduction
-Purpose: Development of a food-focused social media platform for sharing, posting, and commenting on recipes, catering to cooking enthusiasts for inspiration, community connection, and education.
+### Description
+BiteShare is a food-focused social media platform where users can share, post, and comment on recipes. It caters to various users including home cooks, food enthusiasts, professional chefs, food bloggers, culinary students, families, and fitness enthusiasts. The platform provides inspiration, community connection, and educational opportunities for users passionate about cooking and food.
 
-Target Audience:
-
-Home Cooks
-
-Food Enthusiasts
-
-Professional Chefs
-
-Food Bloggers and Influencers
-
-Culinary Students
-
-Families
-
-Fitness and Health Enthusiasts
-
-Objectives
+### Objectives
 Inspiration and Discovery
-
-Users find new meal ideas and personalize recipes to their preferences.
-
+Discover new meal ideas and personalize recipes based on dietary preferences and tastes.
 Community and Connection
-
-Share culinary experiences, promote cultural exchange, and build relationships.
-
+Share culinary experiences, promote cultural exchange, and build relationships with other food enthusiasts.
 Learning and Education
+Post detailed recipes with tips and tutorials, and provide a collaborative environment for feedback and improvements.
 
-Post detailed recipes with tips, provide feedback and improvements.
-
-Features
-User Profiles: Create and share profiles and follow others.
-
+### Features
+User Profiles: Create and share profiles, follow other users.
 Recipe Posting and Sharing: Post recipes with ingredients, instructions, and photos.
+Recipe Discovery: Search and filter recipes by ingredients, dietary preferences, cuisine types, etc.
+Comments and Feedback: Comment on recipes, provide suggestions and feedback.
+Likes and Favorites: Like recipes and save favorites to profiles for easy access.
+Educational Resources: Access cooking tutorials, tips, and techniques from experienced chefs.
 
-Recipe Discovery: Search and filter options for finding recipes.
+### Technologies Used
++ Html
++ JavaScript
++ Css
++ ReactJs
++ Firebase
 
-Comments and Feedback: Comment on recipes, give suggestions, and feedback.
+### Project Structure
+The project consists of the following sections:
+Introduction: Purpose and target audience.
+Objectives: Key goals of the platform.
+Features: Detailed features of the platform.
+Wireframes: Visual layouts of the pages (Login, Sign Up, Home, Discover, Message, Notifications, Profile, Other Profile, Create New Post, Upload New Post).
+Future Recommendations: Personal branding, creativity, support, motivation, convenience, organization, and monetization opportunities.
+Conclusion: Summary of the platform's impact and goals.
 
-Likes and Favorites: Like and save recipes for later.
-
-Educational Resources: Cooking tutorials, tips, and techniques.
-
-Wireframes
-Login Page
-
-Sign up Page
-
-Home Page
-
-Discover Page
-
-Message Page
-
-Notifications Page
-
-Profile Page
-
-Other Profile Page
-
-Create New Post Page
-
-Upload New Post Page
-
-Future Recommendations
-Personal Branding and Creativity: Showcase talent and creativity.
-
-Support and Motivation: Encourage healthy habits and cooking challenges.
-
-Convenience and Organization: Recipe storage, shopping lists, and meal planning.
-
-Monetization Opportunities: Brand collaborations, ad revenue, and partnerships.
+### Usage
+Sign Up: Access the registration page and create an account.
+Log In: Use registered email and password to log in.
+Explore: Discover and interact with recipes, share posts, and engage with the community.
+Post Recipes: Create and share recipes with the community.
+Feedback: Comment, like, and save recipes.
 
 Conclusion
-BiteShare aims to create a vibrant community of food enthusiasts, offering inspiration, connection, and education through shared recipes, fostering a meaningful impact in the cooking world.
+BiteShare aims to foster a vibrant community of food enthusiasts, providing inspiration, connection, and education through shared recipes. It addresses users' needs for creativity, social interaction, and culinary learning, creating a meaningful impact in the world of cooking
